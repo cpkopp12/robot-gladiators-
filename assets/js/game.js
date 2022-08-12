@@ -38,6 +38,13 @@ var fight = function() {
         playerName + " now has " + playerHealth + " health remaing."
         );
 
+    // check player's health
+    if (playerHealth <= 0) {
+        window.alert(playerName + " has died!");
+    } else {
+        window.alert(playerName + " still has " + playerHealth + " health left.");
+    }
+  
   };
 
 fight();
